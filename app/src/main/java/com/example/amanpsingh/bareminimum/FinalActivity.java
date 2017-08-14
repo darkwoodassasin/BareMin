@@ -15,7 +15,7 @@ public class FinalActivity extends AppCompatActivity {
         setContentView(R.layout.activity_final);
 
         Intent intent = getIntent();
-        CharSequence text = intent.getCharSequenceExtra("NewText");
+        CharSequence text = intent.getCharSequenceExtra("NewText2");
 
         textView = (TextView) findViewById(R.id.text_view);
         textView.setText(text);
